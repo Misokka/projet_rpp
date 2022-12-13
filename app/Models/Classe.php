@@ -13,6 +13,8 @@ class Classe extends Model
 {
     use HasFactory;
 
+    protected $table = 'classe';
+
     /**
      * The attributes that are mass assignable.
      *
